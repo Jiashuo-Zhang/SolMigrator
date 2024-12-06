@@ -1,0 +1,3 @@
+## RQ3
+
+`./RQ3` contains the experiment results used in RQ3. `./RQ3/ERC20_result.csv`and `./RQ3/ERC721_result.csv` include the comparison results between the migrated test cases in RQ2 and the real-world transactions of these contracts in Dataset 2. The historical Transactions are stored in the `./ERC20/Tx_History` and `./ERC721/Tx_History`  folders, and the migrated test cases are stored in the `./ERC20/migrated_test_cases` and  `./ERC721/migrated_test_cases`.

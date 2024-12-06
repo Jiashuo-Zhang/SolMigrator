@@ -1,0 +1,509 @@
+{
+    "name": "Talentum",
+    "address": "0xe803267c5086252425befe8e1f9c4cec0ea3a952",
+    "Compiler Version": "v0.4.20-nightly.2018.1.6+commit.2548228b",
+    "Optimization Enabled": "Yes with 200 runs",
+    "Other Settings": "default evmVersion",
+    "creation_bytecode": "60606040526003805460ff1916601217905534156200001d57600080fd5b60008054600160a060020a03191633600160a060020a0316908117825560035460ff16600a0a6402540be4000260048190559082526005602052604091829020558051908101604052600881527f54616c656e74756d00000000000000000000000000000000000000000000000060208201526001908051620000a592916020019062000131565b5060408051908101604052600681527f54616c656e74000000000000000000000000000000000000000000000000000060208201526002908051620000ef92916020019062000131565b506000600781905560088054600160a060020a03191633600160a060020a03169081179091558152600960205260409020805460ff19166001179055620001d6565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106200017457805160ff1916838001178555620001a4565b82800160010185558215620001a4579182015b82811115620001a457825182559160200191906001019062000187565b50620001b2929150620001b6565b5090565b620001d391905b80821115620001b25760008155600101620001bd565b90565b61112e80620001e66000396000f3006060604052600436106101325763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166306fdde03811461023d578063095ea7b3146102c757806318160ddd146102fd57806323b872dd146103225780632b9055c31461034a5780632fa267fc1461036e578063313ce5671461039a57806353f8e415146103c35780636db736df146103d957806370a08231146103f857806389222698146104175780638da5cb5b1461043b57806394fdb8df1461046a57806395d89b4114610496578063a9059cbb146104a9578063b0f23d80146104cb578063b77ebcbb14610525578063c73c2a451461053f578063c906cd68146105ac578063cae9ca51146105d4578063dd62ed3e14610639578063e771e1931461065e578063f5fb913714610678575b6007546000908190151561014557600080fd5b60009150600090506007546001141561016157506103e8610179565b6007546002141561017557506101f4610179565b5060645b600854600160a060020a03166000908152600560205260409020543482029250829010156101a657600080fd5b60088054600160a060020a0390811660009081526005602052604080822080548790039055338316825290819020805486019055915416903480156108fc029151600060405180830381858888f19350505050151561020457600080fd5b33600160a060020a031630600160a060020a03166000805160206110e38339815191528460405190815260200160405180910390a35050005b341561024857600080fd5b61025061068b565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561028c578082015183820152602001610274565b50505050905090810190601f1680156102b95780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156102d257600080fd5b6102e9600160a060020a0360043516602435610729565b604051901515815260200160405180910390f35b341561030857600080fd5b610310610759565b60405190815260200160405180910390f35b341561032d57600080fd5b6102e9600160a060020a036004358116906024351660443561075f565b341561035557600080fd5b61036c600160a060020a03600435166024356107d6565b005b341561037957600080fd5b61025061ffff60043581169060243581169060443581169060643516610862565b34156103a557600080fd5b6103ad610948565b60405160ff909116815260200160405180910390f35b34156103ce57600080fd5b61036c600435610951565b34156103e457600080fd5b6102e9600160a060020a0360043516610971565b341561040357600080fd5b610310600160a060020a0360043516610986565b341561042257600080fd5b61036c600160a060020a03600435166024351515610998565b341561044657600080fd5b61044e6109f3565b604051600160a060020a03909116815260200160405180910390f35b341561047557600080fd5b61025061ffff60043581169060243581169060443581169060643516610a02565b34156104a157600080fd5b610250610aa6565b34156104b457600080fd5b61036c600160a060020a0360043516602435610b11565b34156104d657600080fd5b61036c6004803561ffff169060446024803590810190830135806020601f82018190048102016040519081016040528181529291906020840183838082843750949650610b2095505050505050565b341561053057600080fd5b61025061ffff60043516610b64565b341561054a57600080fd5b61036c61ffff6004803582169160248035821692604435831692606435169160a49060843590810190830135806020601f82018190048102016040519081016040528181529291906020840183838082843750949650610be195505050505050565b34156105b757600080fd5b61036c600160a060020a0360043581169060243516604435610c58565b34156105df57600080fd5b6102e960048035600160a060020a03169060248035919060649060443590810190830135806020601f82018190048102016040519081016040528181529291906020840183838082843750949650610d2995505050505050565b341561064457600080fd5b610310600160a060020a0360043581169060243516610e5b565b341561066957600080fd5b61025061ffff60043516610e78565b341561068357600080fd5b610310610f3b565b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107215780601f106106f657610100808354040283529160200191610721565b820191906000526020600020905b81548152906001019060200180831161070457829003601f168201915b505050505081565b600160a060020a033381166000908152600660209081526040808320938616835292905220819055600192915050565b60045481565b600160a060020a0380841660009081526006602090815260408083203390941683529290529081205482111561079457600080fd5b600160a060020a03808516600090815260066020908152604080832033909416835292905220805483900390556107cc848484610f41565b5060019392505050565b600354600160a060020a03331660009081526005602052604090205460ff909116600a0a8202908190101561080a57600080fd5b600160a060020a033381166000818152600560205260408082208054869003905592861680825290839020805485019055916000805160206110e38339815191529084905190815260200160405180910390a3505050565b61086a611035565b61ffff8086166000908152600a602090815260408083208885168452825280832087851684528252808320938616835292815290829020805490926002600019610100600185161502019092169190910491601f8301819004810201905190810160405280929190818152602001828054600181600116156101000203166002900480156109395780601f1061090e57610100808354040283529160200191610939565b820191906000526020600020905b81548152906001019060200180831161091c57829003601f168201915b50939998505050505050505050565b60035460ff1681565b60005433600160a060020a0390811691161461096c57600080fd5b600755565b60096020526000908152604090205460ff1681565b60056020526000908152604090205481565b60005433600160a060020a039081169116146109b357600080fd5b600160a060020a03821615156109c857600080fd5b600160a060020a03919091166000908152600960205260409020805460ff1916911515919091179055565b600054600160a060020a031681565b600a6020528360005260406000206020528260005260406000206020528160005260406000206020528060005260406000206000935093505050508054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107215780601f106106f657610100808354040283529160200191610721565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107215780601f106106f657610100808354040283529160200191610721565b610b1c338383610f41565b5050565b60005433600160a060020a03908116911614610b3b57600080fd5b61ffff82166000908152600b60205260409020818051610b5f929160200190611047565b505050565b600b6020528060005260406000206000915090508054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107215780601f106106f657610100808354040283529160200191610721565b600160a060020a03331660009081526009602052604090205460ff161515600114610c0b57600080fd5b61ffff8086166000908152600a602090815260408083208885168452825280832087851684528252808320938616835292905220818051610c50929160200190611047565b505050505050565b6000805433600160a060020a03908116911614610c7457600080fd5b5060035460ff16600a0a8102600160a060020a0384161515610c9557600080fd5b600160a060020a0383161515610caa57600080fd5b600160a060020a03841660009081526005602052604090205481901015610cd057600080fd5b600160a060020a038085166000818152600560205260408082208054869003905592861680825290839020805485019055916000805160206110e38339815191529084905190815260200160405180910390a350505050565b600083610d368185610729565b15610e535780600160a060020a0316638f4ffcb1338630876040518563ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018085600160a060020a0316600160a060020a0316815260200184815260200183600160a060020a0316600160a060020a0316815260200180602001828103825283818151815260200191508051906020019080838360005b83811015610dec578082015183820152602001610dd4565b50505050905090810190601f168015610e195780820380516001836020036101000a031916815260200191505b5095505050505050600060405180830381600087803b1515610e3a57600080fd5b6102c65a03f11515610e4b57600080fd5b505050600191505b509392505050565b600660209081526000928352604080842090915290825290205481565b610e80611035565b600b60008361ffff1661ffff1681526020019081526020016000208054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610f2f5780601f10610f0457610100808354040283529160200191610f2f565b820191906000526020600020905b815481529060010190602001808311610f1257829003601f168201915b50939695505050505050565b60075481565b6000600160a060020a0383161515610f5857600080fd5b600160a060020a03841660009081526005602052604090205482901015610f7e57600080fd5b600160a060020a03831660009081526005602052604090205482810111610fa457600080fd5b50600160a060020a0380831660008181526005602052604080822080549488168084528284208054888103909155938590528154870190915591909301926000805160206110e38339815191529085905190815260200160405180910390a3600160a060020a0380841660009081526005602052604080822054928716825290205401811461102f57fe5b50505050565b60206040519081016040526000815290565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061108857805160ff19168380011785556110b5565b828001600101855582156110b5579182015b828111156110b557825182559160200191906001019061109a565b506110c19291506110c5565b5090565b6110df91905b808211156110c157600081556001016110cb565b905600ddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3efa165627a7a72305820c92bf646823b759607b218bc82c0c7f008747c2b8df7ee4342aa6481569c763a0029",
+    "abi": [
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "name",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_spender",
+                    "type": "address"
+                },
+                {
+                    "name": "_value",
+                    "type": "uint256"
+                }
+            ],
+            "name": "approve",
+            "outputs": [
+                {
+                    "name": "success",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "totalSupply",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_from",
+                    "type": "address"
+                },
+                {
+                    "name": "_to",
+                    "type": "address"
+                },
+                {
+                    "name": "_value",
+                    "type": "uint256"
+                }
+            ],
+            "name": "transferFrom",
+            "outputs": [
+                {
+                    "name": "success",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_to",
+                    "type": "address"
+                },
+                {
+                    "name": "coin_amount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "CoinTransfer",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "country",
+                    "type": "uint16"
+                },
+                {
+                    "name": "book",
+                    "type": "uint16"
+                },
+                {
+                    "name": "chapter",
+                    "type": "uint16"
+                },
+                {
+                    "name": "verse",
+                    "type": "uint16"
+                }
+            ],
+            "name": "ReadBible",
+            "outputs": [
+                {
+                    "name": "text",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "decimals",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint8"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "step",
+                    "type": "uint256"
+                }
+            ],
+            "name": "SetDonateStep",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "Writers",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "balanceOf",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "manager",
+                    "type": "address"
+                },
+                {
+                    "name": "flag",
+                    "type": "bool"
+                }
+            ],
+            "name": "SetWriter",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "owner",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "uint16"
+                },
+                {
+                    "name": "",
+                    "type": "uint16"
+                },
+                {
+                    "name": "",
+                    "type": "uint16"
+                },
+                {
+                    "name": "",
+                    "type": "uint16"
+                }
+            ],
+            "name": "HolyBible",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "symbol",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_to",
+                    "type": "address"
+                },
+                {
+                    "name": "_value",
+                    "type": "uint256"
+                }
+            ],
+            "name": "transfer",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "country",
+                    "type": "uint16"
+                },
+                {
+                    "name": "country_name",
+                    "type": "string"
+                }
+            ],
+            "name": "SetCountryCode",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "uint16"
+                }
+            ],
+            "name": "Country_code",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "country",
+                    "type": "uint16"
+                },
+                {
+                    "name": "book",
+                    "type": "uint16"
+                },
+                {
+                    "name": "chapter",
+                    "type": "uint16"
+                },
+                {
+                    "name": "verse",
+                    "type": "uint16"
+                },
+                {
+                    "name": "text",
+                    "type": "string"
+                }
+            ],
+            "name": "WriteBible",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_from",
+                    "type": "address"
+                },
+                {
+                    "name": "_to",
+                    "type": "address"
+                },
+                {
+                    "name": "amount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "ForceCoinTransfer",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_spender",
+                    "type": "address"
+                },
+                {
+                    "name": "_value",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_extraData",
+                    "type": "bytes"
+                }
+            ],
+            "name": "approveAndCall",
+            "outputs": [
+                {
+                    "name": "success",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                },
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "allowance",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "country",
+                    "type": "uint16"
+                }
+            ],
+            "name": "GetCountryCode",
+            "outputs": [
+                {
+                    "name": "country_name",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "donate_step",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "fallback"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "value",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Transfer",
+            "type": "event"
+        }
+    ],
+    "deployed_bytecode": "0x6060604052600436106101325763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166306fdde03811461023d578063095ea7b3146102c757806318160ddd146102fd57806323b872dd146103225780632b9055c31461034a5780632fa267fc1461036e578063313ce5671461039a57806353f8e415146103c35780636db736df146103d957806370a08231146103f857806389222698146104175780638da5cb5b1461043b57806394fdb8df1461046a57806395d89b4114610496578063a9059cbb146104a9578063b0f23d80146104cb578063b77ebcbb14610525578063c73c2a451461053f578063c906cd68146105ac578063cae9ca51146105d4578063dd62ed3e14610639578063e771e1931461065e578063f5fb913714610678575b6007546000908190151561014557600080fd5b60009150600090506007546001141561016157506103e8610179565b6007546002141561017557506101f4610179565b5060645b600854600160a060020a03166000908152600560205260409020543482029250829010156101a657600080fd5b60088054600160a060020a0390811660009081526005602052604080822080548790039055338316825290819020805486019055915416903480156108fc029151600060405180830381858888f19350505050151561020457600080fd5b33600160a060020a031630600160a060020a03166000805160206110e38339815191528460405190815260200160405180910390a35050005b341561024857600080fd5b61025061068b565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561028c578082015183820152602001610274565b50505050905090810190601f1680156102b95780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156102d257600080fd5b6102e9600160a060020a0360043516602435610729565b604051901515815260200160405180910390f35b341561030857600080fd5b610310610759565b60405190815260200160405180910390f35b341561032d57600080fd5b6102e9600160a060020a036004358116906024351660443561075f565b341561035557600080fd5b61036c600160a060020a03600435166024356107d6565b005b341561037957600080fd5b61025061ffff60043581169060243581169060443581169060643516610862565b34156103a557600080fd5b6103ad610948565b60405160ff909116815260200160405180910390f35b34156103ce57600080fd5b61036c600435610951565b34156103e457600080fd5b6102e9600160a060020a0360043516610971565b341561040357600080fd5b610310600160a060020a0360043516610986565b341561042257600080fd5b61036c600160a060020a03600435166024351515610998565b341561044657600080fd5b61044e6109f3565b604051600160a060020a03909116815260200160405180910390f35b341561047557600080fd5b61025061ffff60043581169060243581169060443581169060643516610a02565b34156104a157600080fd5b610250610aa6565b34156104b457600080fd5b61036c600160a060020a0360043516602435610b11565b34156104d657600080fd5b61036c6004803561ffff169060446024803590810190830135806020601f82018190048102016040519081016040528181529291906020840183838082843750949650610b2095505050505050565b341561053057600080fd5b61025061ffff60043516610b64565b341561054a57600080fd5b61036c61ffff6004803582169160248035821692604435831692606435169160a49060843590810190830135806020601f82018190048102016040519081016040528181529291906020840183838082843750949650610be195505050505050565b34156105b757600080fd5b61036c600160a060020a0360043581169060243516604435610c58565b34156105df57600080fd5b6102e960048035600160a060020a03169060248035919060649060443590810190830135806020601f82018190048102016040519081016040528181529291906020840183838082843750949650610d2995505050505050565b341561064457600080fd5b610310600160a060020a0360043581169060243516610e5b565b341561066957600080fd5b61025061ffff60043516610e78565b341561068357600080fd5b610310610f3b565b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107215780601f106106f657610100808354040283529160200191610721565b820191906000526020600020905b81548152906001019060200180831161070457829003601f168201915b505050505081565b600160a060020a033381166000908152600660209081526040808320938616835292905220819055600192915050565b60045481565b600160a060020a0380841660009081526006602090815260408083203390941683529290529081205482111561079457600080fd5b600160a060020a03808516600090815260066020908152604080832033909416835292905220805483900390556107cc848484610f41565b5060019392505050565b600354600160a060020a03331660009081526005602052604090205460ff909116600a0a8202908190101561080a57600080fd5b600160a060020a033381166000818152600560205260408082208054869003905592861680825290839020805485019055916000805160206110e38339815191529084905190815260200160405180910390a3505050565b61086a611035565b61ffff8086166000908152600a602090815260408083208885168452825280832087851684528252808320938616835292815290829020805490926002600019610100600185161502019092169190910491601f8301819004810201905190810160405280929190818152602001828054600181600116156101000203166002900480156109395780601f1061090e57610100808354040283529160200191610939565b820191906000526020600020905b81548152906001019060200180831161091c57829003601f168201915b50939998505050505050505050565b60035460ff1681565b60005433600160a060020a0390811691161461096c57600080fd5b600755565b60096020526000908152604090205460ff1681565b60056020526000908152604090205481565b60005433600160a060020a039081169116146109b357600080fd5b600160a060020a03821615156109c857600080fd5b600160a060020a03919091166000908152600960205260409020805460ff1916911515919091179055565b600054600160a060020a031681565b600a6020528360005260406000206020528260005260406000206020528160005260406000206020528060005260406000206000935093505050508054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107215780601f106106f657610100808354040283529160200191610721565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107215780601f106106f657610100808354040283529160200191610721565b610b1c338383610f41565b5050565b60005433600160a060020a03908116911614610b3b57600080fd5b61ffff82166000908152600b60205260409020818051610b5f929160200190611047565b505050565b600b6020528060005260406000206000915090508054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107215780601f106106f657610100808354040283529160200191610721565b600160a060020a03331660009081526009602052604090205460ff161515600114610c0b57600080fd5b61ffff8086166000908152600a602090815260408083208885168452825280832087851684528252808320938616835292905220818051610c50929160200190611047565b505050505050565b6000805433600160a060020a03908116911614610c7457600080fd5b5060035460ff16600a0a8102600160a060020a0384161515610c9557600080fd5b600160a060020a0383161515610caa57600080fd5b600160a060020a03841660009081526005602052604090205481901015610cd057600080fd5b600160a060020a038085166000818152600560205260408082208054869003905592861680825290839020805485019055916000805160206110e38339815191529084905190815260200160405180910390a350505050565b600083610d368185610729565b15610e535780600160a060020a0316638f4ffcb1338630876040518563ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018085600160a060020a0316600160a060020a0316815260200184815260200183600160a060020a0316600160a060020a0316815260200180602001828103825283818151815260200191508051906020019080838360005b83811015610dec578082015183820152602001610dd4565b50505050905090810190601f168015610e195780820380516001836020036101000a031916815260200191505b5095505050505050600060405180830381600087803b1515610e3a57600080fd5b6102c65a03f11515610e4b57600080fd5b505050600191505b509392505050565b600660209081526000928352604080842090915290825290205481565b610e80611035565b600b60008361ffff1661ffff1681526020019081526020016000208054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610f2f5780601f10610f0457610100808354040283529160200191610f2f565b820191906000526020600020905b815481529060010190602001808311610f1257829003601f168201915b50939695505050505050565b60075481565b6000600160a060020a0383161515610f5857600080fd5b600160a060020a03841660009081526005602052604090205482901015610f7e57600080fd5b600160a060020a03831660009081526005602052604090205482810111610fa457600080fd5b50600160a060020a0380831660008181526005602052604080822080549488168084528284208054888103909155938590528154870190915591909301926000805160206110e38339815191529085905190815260200160405180910390a3600160a060020a0380841660009081526005602052604080822054928716825290205401811461102f57fe5b50505050565b60206040519081016040526000815290565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061108857805160ff19168380011785556110b5565b828001600101855582156110b5579182015b828111156110b557825182559160200191906001019061109a565b506110c19291506110c5565b5090565b6110df91905b808211156110c157600081556001016110cb565b905600ddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3efa165627a7a72305820c92bf646823b759607b218bc82c0c7f008747c2b8df7ee4342aa6481569c763a0029",
+    "constructor_argument": "",
+    "Contract Source Code": "/**\r\n *Submitted for verification at Etherscan.io on 2018-02-05\r\n*/\r\n\r\npragma solidity ^0.4.16;\r\n\r\ncontract owned {\r\n    address public owner;\r\n\r\n    function owned() public {\r\n        owner = msg.sender;\r\n    }\r\n\r\n    modifier onlyOwner {\r\n        require(msg.sender == owner);\r\n        _;\r\n    }\r\n}\r\n\r\ninterface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public; }\r\n\r\ncontract TokenERC20 {\r\n    // Public variables of the token\r\n    string public name;\r\n    string public symbol;\r\n    uint8 public decimals = 18;\r\n    // 18 decimals is the strongly suggested default, avoid changing it\r\n    uint256 public totalSupply;\r\n\r\n    // This creates an array with all balances\r\n    mapping (address => uint256) public balanceOf;\r\n    mapping (address => mapping (address => uint256)) public allowance;\r\n\r\n    // This generates a public event on the blockchain that will notify clients\r\n    event Transfer(address indexed from, address indexed to, uint256 value);\r\n\r\n    /**\r\n     * Constrctor function\r\n     *\r\n     * Initializes contract with initial supply tokens to the creator of the contract\r\n     */\r\n    function TokenERC20() public {\r\n        totalSupply = 10000000000 * 10 ** uint256(decimals);  // Update total supply with the decimal amount\r\n        balanceOf[msg.sender] = totalSupply;                // Give the creator all initial tokens\r\n        name = \"Talentum\";                                   // Set the name for display purposes\r\n        symbol = \"Talent\";                               // Set the symbol for display purposes\r\n    }\r\n\r\n    /**\r\n     * Internal transfer, only can be called by this contract\r\n     */\r\n    function _transfer(address _from, address _to, uint _value) internal {\r\n        // Prevent transfer to 0x0 address. Use burn() instead\r\n        require(_to != 0x0);\r\n        // Check if the sender has enough\r\n        require(balanceOf[_from] >= _value);\r\n        // Check for overflows\r\n        require(balanceOf[_to] + _value > balanceOf[_to]);\r\n        // Save this for an assertion in the future\r\n        uint previousBalances = balanceOf[_from] + balanceOf[_to];\r\n        // Subtract from the sender\r\n        balanceOf[_from] -= _value;\r\n        // Add the same to the recipient\r\n        balanceOf[_to] += _value;\r\n        Transfer(_from, _to, _value);\r\n        // Asserts are used to use static analysis to find bugs in your code. They should never fail\r\n        assert(balanceOf[_from] + balanceOf[_to] == previousBalances);\r\n    }\r\n\r\n    /**\r\n     * Transfer tokens\r\n     *\r\n     * Send `_value` tokens to `_to` from your account\r\n     *\r\n     * @param _to The address of the recipient\r\n     * @param _value the amount to send\r\n     */\r\n    function transfer(address _to, uint256 _value) public {\r\n        _transfer(msg.sender, _to, _value);\r\n    }\r\n\r\n    /**\r\n     * Transfer tokens from other address\r\n     *\r\n     * Send `_value` tokens to `_to` in behalf of `_from`\r\n     *\r\n     * @param _from The address of the sender\r\n     * @param _to The address of the recipient\r\n     * @param _value the amount to send\r\n     */\r\n    function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {\r\n        require(_value <= allowance[_from][msg.sender]);     // Check allowance\r\n        allowance[_from][msg.sender] -= _value;\r\n        _transfer(_from, _to, _value);\r\n        return true;\r\n    }\r\n\r\n    /**\r\n     * Set allowance for other address\r\n     *\r\n     * Allows `_spender` to spend no more than `_value` tokens in your behalf\r\n     *\r\n     * @param _spender The address authorized to spend\r\n     * @param _value the max amount they can spend\r\n     */\r\n    function approve(address _spender, uint256 _value) public\r\n        returns (bool success) {\r\n        allowance[msg.sender][_spender] = _value;\r\n        return true;\r\n    }\r\n\r\n    /**\r\n     * Set allowance for other address and notify\r\n     *\r\n     * Allows `_spender` to spend no more than `_value` tokens in your behalf, and then ping the contract about it\r\n     *\r\n     * @param _spender The address authorized to spend\r\n     * @param _value the max amount they can spend\r\n     * @param _extraData some extra information to send to the approved contract\r\n     */\r\n    function approveAndCall(address _spender, uint256 _value, bytes _extraData)\r\n        public\r\n        returns (bool success) {\r\n        tokenRecipient spender = tokenRecipient(_spender);\r\n        if (approve(_spender, _value)) {\r\n            spender.receiveApproval(msg.sender, _value, this, _extraData);\r\n            return true;\r\n        }\r\n    }\r\n}\r\n\r\ncontract  Talentum is owned, TokenERC20 {\r\n    \r\n    uint256 public donate_step;\r\n    \r\n    address maker_corp;\r\n\r\n    mapping (address => bool) public Writers;\r\n    \r\n    mapping (uint16 => mapping(uint16 => mapping (uint16 => mapping (uint16 => string)))) public HolyBible;\r\n    mapping (uint16 => string) public Country_code;\r\n\r\n    /* Initializes contract with initial supply tokens to the creator of the contract */\r\n    function Talentum() TokenERC20()  public \r\n    {\r\n        donate_step = 0;  \r\n        maker_corp = msg.sender;\r\n        Writers[msg.sender] = true;\r\n    }\r\n    \r\n    function WriteBible(uint16 country, uint16 book, uint16 chapter, uint16 verse, string text) public\r\n    {\r\n        require(Writers[msg.sender]==true);\r\n        HolyBible[country][book][chapter][verse] = text;\r\n    }\r\n    \r\n    function SetWriter(address manager, bool flag) onlyOwner public\r\n    {\r\n        require(manager != 0x0);\r\n        Writers[manager] = flag;\r\n    }\r\n    \r\n    function ReadBible(uint16 country, uint16 book, uint16 chapter, uint16 verse ) public returns (string text)\r\n    {\r\n        text = HolyBible[country][book][chapter][verse];\r\n        return text;\r\n    }\r\n    \r\n    function SetCountryCode(uint16 country, string country_name) onlyOwner public\r\n    {\r\n        Country_code[country] = country_name;\r\n    }\r\n    \r\n    function GetCountryCode(uint16 country) public returns (string country_name)\r\n    {\r\n        country_name = Country_code[country];\r\n        return country_name;\r\n    }\r\n    \r\n    function SetDonateStep(uint256 step) onlyOwner public\r\n    {\r\n        donate_step = step;\r\n    }\r\n\r\n    function () payable public\r\n    {\r\n        require(donate_step!=0);\r\n        \r\n        uint amount = 0;\r\n        uint nowprice = 0;\r\n        \r\n        if ( donate_step == 1  )\r\n            nowprice = 1000;  \r\n        else\r\n            if ( donate_step == 2 )\r\n                nowprice = 500;  \r\n            else\r\n                nowprice = 100;  \r\n                    \r\n        amount = msg.value * nowprice; \r\n            \r\n        require(balanceOf[maker_corp]>=amount);\r\n        \r\n        balanceOf[maker_corp] -= amount;\r\n        balanceOf[msg.sender] += amount;                \r\n        require(maker_corp.send(msg.value));\r\n        Transfer(this, msg.sender, amount);               \r\n    }\r\n\r\n\r\n    function CoinTransfer(address _to, uint256 coin_amount) public\r\n    {\r\n        uint256 amount = coin_amount * 10 ** uint256(decimals);\r\n\r\n        require(balanceOf[msg.sender] >= amount);         \r\n        balanceOf[msg.sender] -= amount;                 \r\n        balanceOf[_to] += amount;                 \r\n        Transfer(msg.sender, _to, amount);               \r\n    }\r\n\r\n    function ForceCoinTransfer(address _from, address _to, uint256 amount) onlyOwner public\r\n    {\r\n        uint256 coin_amount = amount * 10 ** uint256(decimals);\r\n\r\n        require(_from != 0x0);\r\n        require(_to != 0x0);\r\n        require(balanceOf[_from] >= coin_amount);         \r\n\r\n        balanceOf[_from] -= coin_amount;                 \r\n        balanceOf[_to] += coin_amount;                \r\n        Transfer(_from, _to, coin_amount);               \r\n    }\r\n}",
+    "data_type": "ERC20",
+    "id": "Talentum_0xe803267c5086252425befe8e1f9c4cec0ea3a952",
+    "file": "./Contract_source_Code/Talentum_0xe803267c5086252425befe8e1f9c4cec0ea3a952.sol"
+}

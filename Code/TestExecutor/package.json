@@ -1,0 +1,12 @@
+{
+  "name": "hardhat-project",
+  "dependencies": {
+    "hardhat": "^2.20.1",
+    "hardhat-exposed": "^0.3.15",
+    "hardhat-ignore-warnings": "^0.2.11",
+    "solidity-docgen": "^0.6.0-beta.36"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.7"
+  }
+}

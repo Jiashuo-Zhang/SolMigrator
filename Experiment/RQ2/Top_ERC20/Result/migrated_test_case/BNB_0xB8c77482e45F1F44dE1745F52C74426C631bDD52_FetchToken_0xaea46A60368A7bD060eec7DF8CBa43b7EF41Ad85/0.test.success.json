@@ -1,0 +1,13 @@
+[
+  {
+    "hash": "0x436fc7d21ed4a0a634f41b50ccb42fca12be7322de5bf9a20c97bdccbb5b2a04",
+    "pass_assertion": true,
+    "revert": false,
+    "revert_reason": "",
+    "failed_assertion": [],
+    "checked_assertion": [
+      "not-reverted"
+    ],
+    "assertion_fail_reason": ""
+  }
+]

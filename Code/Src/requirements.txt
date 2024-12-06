@@ -1,0 +1,8 @@
+eth_abi==5.0.1
+eth_utils==2.3.1
+networkx==3.3
+py_solc_x==1.1.1
+pycryptodome==3.17
+Requests==2.32.3
+slither==0.3.0
+web3==6.20.1

@@ -1,0 +1,32 @@
+[
+  {
+    "gas": "6252920",
+    "gasUsed": "1506",
+    "input": "0x01ffc9a79a20483d00000000000000000000000000000000000000000000000000000000",
+    "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+    "value": "0",
+    "type": "CALL",
+    "trace_address": "0",
+    "transaction_hash": "0x6d10ba90f1fbc4d6ab5b0b737f23afd61cf409dcb5bb97869b340a0fbb01c3ce",
+    "block_number": "5654110",
+    "transaction_index": 11,
+    "from_address": "0xc7d89ce55b97fbbd4f562706fca2265b5786cc1a",
+    "to_address": "0xf24c63438ae11cb3facb84006f4cfa75458126ed",
+    "error": null
+  },
+  {
+    "gas": "6266355",
+    "gasUsed": "1506",
+    "input": "0x01ffc9a79a20483d00000000000000000000000000000000000000000000000000000000",
+    "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+    "value": "0",
+    "type": "CALL",
+    "trace_address": "0",
+    "transaction_hash": "0xac78a5b95a53023ed86a4a31c0ec471924a2fcadf30600832238ad7618dd8cf4",
+    "block_number": "5654143",
+    "transaction_index": 18,
+    "from_address": "0x74b216218bf2983345128591d1598feafa29ec63",
+    "to_address": "0xf24c63438ae11cb3facb84006f4cfa75458126ed",
+    "error": null
+  }
+]
